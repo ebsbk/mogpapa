@@ -1,0 +1,12 @@
+Description:
+    Generates controller for fetching files stored with mogilefs. 
+		mogilefs-client gem is required.
+		
+Example:
+    rails generate mogilefs_controller mogilefs
+
+    This will create:
+
+    app/controllers/mogilefs_controller.rb
+
+		wich inherits from MogilefsBaseController that have get method.
