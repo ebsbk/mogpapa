@@ -138,7 +138,7 @@ module Paperclip
             raise
           end
         end
-        @queued_for_wirte = {}
+        @queued_for_write = {}
       end
 
       # Returns representation of the data of the file assigned to the given
