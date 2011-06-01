@@ -125,7 +125,7 @@ module Paperclip
             raise
           end
         end
-        @queued_for_delete = {}
+        @queued_for_delete = []
       end
 
       def flush_writes
